@@ -1,14 +1,15 @@
-
 .btn {
   flex: 1;
   min-height: 3rem;
-  border: .09rem solid var(--brand-color-2);
+  border: 0.09rem solid var(--brand-color-2);
   border-radius: 0.31rem;
   font-size: 1.5rem;
   color: var(--brand-color-2);
   background-color: transparent;
 
-  &:hover, &:focus, &:active {
+  &:hover,
+  &:focus,
+  &:active {
     outline: none;
     box-shadow: 0 0 0 2pt var(--brand-color-4);
     cursor: pointer;

@@ -9,7 +9,14 @@
     <main>
       <h1>Simple calculator demo</h1>
       <article class="calculator-wrapper">
-        <p role="region" aria-live="polite" class="calculator-result" id="display">0</p>
+        <p
+          role="region"
+          aria-live="polite"
+          class="calculator-result"
+          id="display"
+        >
+          0
+        </p>
         <ul class="keyboard-grid" id="keyboard">
           <li class="keyboard-grid__li">
             <button class="btn" data-key="operator" value="+">+</button>
@@ -60,7 +67,9 @@
             <button class="btn btn--clear" data-key="clear">ac</button>
           </li>
           <li class="keyboard-grid__li keyboard-grid__li--equal">
-            <button class="btn btn--equal" data-key="operator" value="=">=</button>
+            <button class="btn btn--equal" data-key="operator" value="=">
+              =
+            </button>
           </li>
         </ul>
       </article>

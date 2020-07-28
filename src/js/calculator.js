@@ -12,7 +12,7 @@ export class Calculator {
   }
 
   initKeyboard() {
-    this.$keyboard.addEventListener('click', (event) => {
+    this.$keyboard.addEventListener('click', event => {
       const { target } = event;
 
       if (!target.matches('button')) {
@@ -49,7 +49,8 @@ export class Calculator {
       this.displayValue = '0';
       this.waitingForSecondOperand = false;
     }
-    this.displayValue = this.displayValue === '0' ? value : this.displayValue + value;
+    this.displayValue =
+      this.displayValue === '0' ? value : this.displayValue + value;
   }
 
   updateDisplay() {
@@ -60,7 +61,7 @@ export class Calculator {
     if (this.waitingForSecondOperand === true) {
       this.displayValue = `0${this.dot}`;
       this.waitingForSecondOperand = false;
-      return
+      return;
     }
 
     if (!this.displayValue.includes(this.dot)) {
@@ -73,7 +74,11 @@ export class Calculator {
     if (this.operator === null && !isNaN(inputValue)) {
       this.firstOperand = inputValue;
     } else if (operator) {
-      const result = this.calculate(this.firstOperand, inputValue, this.operator);
+      const result = this.calculate(
+        this.firstOperand,
+        inputValue,
+        this.operator
+      );
       this.displayValue = String(result);
       this.firstOperand = result;
     }
