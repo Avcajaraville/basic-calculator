@@ -1,0 +1,28 @@
+
+.btn {
+  flex: 1;
+  min-height: 3rem;
+  border: .09rem solid var(--brand-color-2);
+  border-radius: 0.31rem;
+  font-size: 1.5rem;
+  color: var(--brand-color-2);
+  background-color: transparent;
+
+  &:hover, &:focus, &:active {
+    outline: none;
+    box-shadow: 0 0 0 2pt var(--brand-color-4);
+    cursor: pointer;
+  }
+
+  &--equal {
+    color: var(--brand-color-3);
+    background-color: var(--brand-color-2);
+  }
+
+  &--clear {
+    text-transform: uppercase;
+    color: var(--brand-color-3);
+    background-color: var(--brand-color-5);
+    border-color: var(--brand-color-5);
+  }
+}

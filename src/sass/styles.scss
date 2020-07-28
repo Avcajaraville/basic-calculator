@@ -1,0 +1,28 @@
+@use "../../node_modules/normalize.css/normalize.css";
+@use "./fonts";
+@use "./buttons";
+@use "./calculator";
+@use "./keyboard";
+
+:root {
+  --brand-color-1: rgb(55, 61, 69);
+  --brand-color-2: rgb(23, 149, 212);
+  --brand-color-3: rgb(245, 245, 245);
+  --brand-color-4: rgb(25, 107, 152);
+  --brand-color-5: rgb(237, 83, 7);
+
+  --spacer-sm: 0.2rem;
+  --spacer: 1rem;
+
+  --base-border: .1rem solid var(--brand-color-1);
+}
+
+body {
+  font-size: var(--spacer);
+  font-family: lato, sans-serif;
+  padding: var(--spacer);
+  color: var(--brand-color-1);
+  background-color: var(--brand-color-3);
+  margin: 0 auto;
+  max-width: 30em;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Calculator demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <main>
+      <h1>Simple calculator demo</h1>
+      <article class="calculator-wrapper">
+        <p role="region" aria-live="polite" class="calculator-result" id="display">0</p>
+        <ul class="keyboard-grid" id="keyboard">
+          <li class="keyboard-grid__li">
+            <button class="btn" data-key="operator" value="+">+</button>
+          </li>
+          <li class="keyboard-grid__li">
+            <button class="btn" data-key="operator" value="-">-</button>
+          </li>
+          <li class="keyboard-grid__li">
+            <button class="btn" data-key="operator" value="*">×</button>
+          </li>
+          <li class="keyboard-grid__li">
+            <button class="btn" data-key="operator" value="/">÷</button>
+          </li>
+          <li class="keyboard-grid__li">
+            <button class="btn" value="7">7</button>
+          </li>
+          <li class="keyboard-grid__li">
+            <button class="btn" value="8">8</button>
+          </li>
+          <li class="keyboard-grid__li">
+            <button class="btn" value="9">9</button>
+          </li>
+          <li class="keyboard-grid__li">
+            <button class="btn" value="4">4</button>
+          </li>
+          <li class="keyboard-grid__li">
+            <button class="btn" value="5">5</button>
+          </li>
+          <li class="keyboard-grid__li">
+            <button class="btn" value="6">6</button>
+          </li>
+          <li class="keyboard-grid__li">
+            <button class="btn" value="1">1</button>
+          </li>
+          <li class="keyboard-grid__li">
+            <button class="btn" value="2">2</button>
+          </li>
+          <li class="keyboard-grid__li">
+            <button class="btn" value="3">3</button>
+          </li>
+          <li class="keyboard-grid__li">
+            <button class="btn" value="0">0</button>
+          </li>
+          <li class="keyboard-grid__li">
+            <button class="btn" data-key="decimal">,</button>
+          </li>
+          <li class="keyboard-grid__li">
+            <button class="btn btn--clear" data-key="clear">ac</button>
+          </li>
+          <li class="keyboard-grid__li keyboard-grid__li--equal">
+            <button class="btn btn--equal" data-key="operator" value="=">=</button>
+          </li>
+        </ul>
+      </article>
+    </main>
+  </body>
+</html>

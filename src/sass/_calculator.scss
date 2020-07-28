@@ -1,0 +1,13 @@
+.calculator-wrapper {
+  border: var(--base-border);
+}
+
+.calculator-result {
+  font-size: 2rem;
+  margin: 0;
+  padding: var(--spacer);
+  border-bottom: var(--base-border);
+  background-color: var(--brand-color-1);
+  color: var(--brand-color-3);
+  text-align: right;
+}

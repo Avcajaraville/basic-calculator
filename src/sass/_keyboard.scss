@@ -1,0 +1,16 @@
+.keyboard-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: var(--spacer);
+  margin: 0;
+  padding: var(--spacer);
+  list-style: none;
+
+  &__li {
+    display: flex;
+
+    &--equal {
+      grid-area: 2 / 4 / 6 / 5;
+    }
+  }
+}
