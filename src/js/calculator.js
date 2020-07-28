@@ -1,11 +1,11 @@
 export class Calculator {
   constructor() {
-    this.resetCalculator();
     this.$display = null;
     this.$keyboard = null;
   }
 
   init() {
+    this.resetCalculator();
     this.$display = document.getElementById('display');
     this.$keyboard = document.getElementById('keyboard');
     this.initKeyboard();

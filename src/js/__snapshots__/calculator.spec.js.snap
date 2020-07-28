@@ -1,0 +1,303 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`init #init should get DOMElement references for display and keyboard DOMElements 1`] = `
+<p
+  aria-live="polite"
+  class="calculator-result"
+  id="display"
+  role="region"
+>
+  
+          0
+        
+</p>
+`;
+
+exports[`init #init should get DOMElement references for display and keyboard DOMElements 2`] = `
+<ul
+  class="keyboard-grid"
+  id="keyboard"
+>
+  
+          
+  <li
+    class="keyboard-grid__li"
+  >
+    
+            
+    <button
+      class="btn"
+      data-key="operator"
+      value="+"
+    >
+      +
+    </button>
+    
+          
+  </li>
+  
+          
+  <li
+    class="keyboard-grid__li"
+  >
+    
+            
+    <button
+      class="btn"
+      data-key="operator"
+      value="-"
+    >
+      -
+    </button>
+    
+          
+  </li>
+  
+          
+  <li
+    class="keyboard-grid__li"
+  >
+    
+            
+    <button
+      class="btn"
+      data-key="operator"
+      value="*"
+    >
+      ×
+    </button>
+    
+          
+  </li>
+  
+          
+  <li
+    class="keyboard-grid__li"
+  >
+    
+            
+    <button
+      class="btn"
+      data-key="operator"
+      value="/"
+    >
+      ÷
+    </button>
+    
+          
+  </li>
+  
+          
+  <li
+    class="keyboard-grid__li"
+  >
+    
+            
+    <button
+      class="btn"
+      value="7"
+    >
+      7
+    </button>
+    
+          
+  </li>
+  
+          
+  <li
+    class="keyboard-grid__li"
+  >
+    
+            
+    <button
+      class="btn"
+      value="8"
+    >
+      8
+    </button>
+    
+          
+  </li>
+  
+          
+  <li
+    class="keyboard-grid__li"
+  >
+    
+            
+    <button
+      class="btn"
+      value="9"
+    >
+      9
+    </button>
+    
+          
+  </li>
+  
+          
+  <li
+    class="keyboard-grid__li"
+  >
+    
+            
+    <button
+      class="btn"
+      value="4"
+    >
+      4
+    </button>
+    
+          
+  </li>
+  
+          
+  <li
+    class="keyboard-grid__li"
+  >
+    
+            
+    <button
+      class="btn"
+      value="5"
+    >
+      5
+    </button>
+    
+          
+  </li>
+  
+          
+  <li
+    class="keyboard-grid__li"
+  >
+    
+            
+    <button
+      class="btn"
+      value="6"
+    >
+      6
+    </button>
+    
+          
+  </li>
+  
+          
+  <li
+    class="keyboard-grid__li"
+  >
+    
+            
+    <button
+      class="btn"
+      value="1"
+    >
+      1
+    </button>
+    
+          
+  </li>
+  
+          
+  <li
+    class="keyboard-grid__li"
+  >
+    
+            
+    <button
+      class="btn"
+      value="2"
+    >
+      2
+    </button>
+    
+          
+  </li>
+  
+          
+  <li
+    class="keyboard-grid__li"
+  >
+    
+            
+    <button
+      class="btn"
+      value="3"
+    >
+      3
+    </button>
+    
+          
+  </li>
+  
+          
+  <li
+    class="keyboard-grid__li"
+  >
+    
+            
+    <button
+      class="btn"
+      value="0"
+    >
+      0
+    </button>
+    
+          
+  </li>
+  
+          
+  <li
+    class="keyboard-grid__li"
+  >
+    
+            
+    <button
+      class="btn"
+      data-key="decimal"
+    >
+      ,
+    </button>
+    
+          
+  </li>
+  
+          
+  <li
+    class="keyboard-grid__li"
+  >
+    
+            
+    <button
+      class="btn btn--clear"
+      data-key="clear"
+    >
+      ac
+    </button>
+    
+          
+  </li>
+  
+          
+  <li
+    class="keyboard-grid__li keyboard-grid__li--equal"
+  >
+    
+            
+    <button
+      class="btn btn--equal"
+      data-key="operator"
+      value="="
+    >
+      
+              =
+            
+    </button>
+    
+          
+  </li>
+  
+        
+</ul>
+`;
