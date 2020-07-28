@@ -11,6 +11,22 @@ This project is a technical demo of a basic calculator.
 - Prettify code.
 - Linting code.
 
+## Getting started
+
+On the console, go to the root of the project, make sure you have `node` & `npm install` and type `npm install`.
+
+This will do (in order):
+- Install project dependencies.
+- Run all unit tests.
+- Generate a coverage report in `/coverage` folder.
+- Build a "production" ready version of the project on `/dist` folder.
+
+You can now go to `/dist` folder and double click (open in a browser) the `index.html` file.
+
+This will open a compiled and minified version of the project.
+
+Find below a list of other available scripts.
+
 ## Scripts
 
 To run these scripts, you need to:
